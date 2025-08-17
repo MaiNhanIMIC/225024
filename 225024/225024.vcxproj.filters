@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="toan.c">
@@ -30,6 +30,12 @@
     <ClCompile Include="link_list.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="hinh_hoc.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="phan_so.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="toan.h">
@@ -42,6 +48,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hinh_hoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phan_so.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

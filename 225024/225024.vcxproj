@@ -127,15 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="hinh_hoc.cpp" />
     <ClCompile Include="link_list.c" />
-    <ClCompile Include="main.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="phan_so.cpp" />
     <ClCompile Include="RingBuffer.c" />
     <ClCompile Include="thuvien.c" />
     <ClCompile Include="toan.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="hinh_hoc.h" />
     <ClInclude Include="lib.h" />
     <ClInclude Include="link_list.h" />
+    <ClInclude Include="phan_so.h" />
     <ClInclude Include="RingBuffer.h" />
     <ClInclude Include="toan.h" />
   </ItemGroup>
